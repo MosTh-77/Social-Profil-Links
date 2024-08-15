@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(0, 0%, 8%);
+    color: hsl(0, 0%, 100%);
+    font-family: 'Inter', sans-serif;
+    display: grid;
+    place-content: center;
+    min-height: 100vh; /* Assure que la grille prend toute la hauteur de la page */
+}
+
+.infos{
+    background-color: hsl(0, 0%, 12%);
+    color: hsl(0, 0%, 100%);
+    padding: 2rem;
+    margin: 1rem;
+    max-width: 400px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+img{
+    border-radius: 50%;
+    width: 75px;
+}
+
+.infos h1 {
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.infos h2{
+    color: hsl(75, 94%, 57%);
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.infos ul li a{
+    color: white;
+    background-color: hsl(0, 0%, 20%);
+    padding: 1rem;
+    display: block;
+    border-radius: 5px;
+    margin-top: 1rem;
+    max-height: 600; 
+}
+
+.infos ul li a:hover{
+    background-color: hsl(75, 94%, 57%);
+    transition: all 0.5s ease;
+}
+
+p{
+    margin-top: 15px;
+}
